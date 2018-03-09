@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keyalive.kliniknamira">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ImageSlide"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.Bab1Activity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab2.Bab2Activity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".program.Program"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Splashscreen"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bab1.babsatu_satu"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_empat"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_lima"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_tujuh"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_dua"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_tiga"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_enam"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_delapan"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_sembilan"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_sepuluh"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab1.babsatu_sebelas"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab2.babdua_satu"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab2.babdua_dua"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab2.babdua_tiga"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab2.babdua_empat"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".bab2.babdua_lima"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".program.Baby_spa"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".program.Baby_massage"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".about.About"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".about.KlinikNamira"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".about.Pengembang"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>

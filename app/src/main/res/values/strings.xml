@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Layanan KIA</string>
+    <string name="Baby_Spa1">Meningkatkan pertumbuhan fisik dan perkembangan mental </string>
+    <string name="Baby_Spa2">Meningkatkan perkembangan sensorik </string>
+    <string name="Baby_Spa3">Meningkatkan kepercayaan diri </string>
+    <string name="Baby_Spa4">Meningkatkan kapasitas paru-paru, memperkuat jantung </string>
+    <string name="Baby_Spa5">Meningkatkan berat badan </string>
+    <string name="Baby_Spa6">Stimulasi mental, sirkulasi darah untuk pertumbuhhan otak dan meningkatkan IQ </string>
+    <string name="Baby_Spa7">Membangun sistem saraf, mengurangi stress, membantu anak agar tidur dengan teratur </string>
+    <string name="Baby_Spa8">Meregangkan otot, meluruskan struktur tubuh dan persendian setelah lahir </string>
+    <string name="Baby_Spa9">Aerobik, memperkuat jantung, menambah nafsu makan </string>
+    <string name="Baby_Spa10">Terapi untuk bayi prematur dan bayi dengan ikut serta (bayi kuning)</string>
+    <string name="Baby_Spa11">Kenyamanan lingkungan bagi bayi yang tinggal 7-9 bulan didalam air, diatas tanah </string>
+    <string name="Baby_message1">Meningkatkan daya tahan tubuh </string>
+    <string name="Baby_message2">Memperbaiki peredaran darah dan pernafasan</string>
+    <string name="Baby_message3">Merangsang fungsi pencernaan serta pembuangan </string>
+    <string name="Baby_message4">Meningkatkan kenaikan berat badan </string>
+    <string name="Baby_message5">Mengurangi stress dan ketegangan </string>
+    <string name="Baby_message6">Meningkatkan kesiagaan </string>
+    <string name="Baby_message7">Membuat tidur lelap </string>
+    <string name="Baby_message8">Mengurangi rasa kembung dan perut sakit </string>
+    <string name="Baby_message9">Meningkatkan hubungan batin antara orang tua dan bayi </string>
+    <string name="Baby_message10">Meningkatkan produksi air susu ibu </string>
+    <string name="des_spa"> Hei Bunda Namira punya Program Baby Spa Lho, buruan ikutin Debay Bunda, biar Si Debay Sehat, Aktif dan Ceria!</string>
+    <string name="des_massage"> Satu lagi nih dari Namira Bun, namanya "Baby Massage" atau Pijat Bayi, ayo konsultasi Debay Bunda, tentunya di Klinik Namira tercinta ya</string>
+    <string name="klinik_namira">Klinik Namira merupakan lembaga yang bekerja dalam memberikan pelayanan kesehatan dengan pelayanan dokter umum, dokter gigi dan kebidanan.\n Klinik Namira mempunyai jenis kegiatan dan pelayanan seperti rawat jalan umum dan gigi, bersalin, pelayanan kebidanan, Khitan, Apotik, Laborat, dan lain lain.</string>
+<string name="alamat">Jl. Rejosari 3/ I, Kelurahan Ngijo, Kecamatan Gunungpati, Kota Semarang.\n
+HP: 085876528063\n
+</string>
+    <string name="tujuan">Aplikasi Ini di buat Untuk Mempromosikan Klinik Namira dan Memberikan Informasi Layanan Kesehatan Ibu dan Anak Kepada Masyarakat.</string>
+    <string name="ginanjar">AKHMAD GINANJAR HADI ROSYID</string>
+    <string name="alamat_ginanjar">
+        NPM .13340009\n
+        Email: akhmadginanjar07@gmail.com\n
+        HP: 085741085305
+    </string>
+        <string name="upgris">Pendidikan Teknologi Informasi/FPMIPATI\n
+        Universitas PGRI Semarang</string>
+</resources>

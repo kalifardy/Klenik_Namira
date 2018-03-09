@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fde824"
+    android:orientation="vertical"
+    android:id="@+id/activity_bab1"
+    android:layout_height="match_parent"
+    tools:context="com.example.keyalive.kliniknamira.bab1.Bab1Activity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        app:cardBackgroundColor="#616660">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="KESEHATAN IBU"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#fde824"
+            fontPath="fonts/JosefinSans-SemiBold.ttf"
+            tools:ignore="MissingPrefix"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:background="#fde824"
+        android:layout_marginBottom="20dp"
+
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fde824">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="satu"
+        app:cardBackgroundColor="#ffffff">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jangan Lupa Periksa Kehamilan Ya Bun"
+        android:textSize="20sp"
+            android:gravity="center"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+        android:layout_gravity="center"
+        android:textColor="#030303"></TextView>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="dua"
+        app:cardBackgroundColor="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:text="Yang Harus di Hindari Bunda Selama Hamil"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="tiga"
+        app:cardBackgroundColor="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:text="Perhatikan Ini Bun ,Persiapan Melahirkan! (Bersalin)"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="empat"
+        app:cardBackgroundColor="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:layout_height="wrap_content"
+            android:text="Awas Bunda ,Berikut ini adalah ''Tanda-Tanda'' Bahaya Yang Harus di Hindari Saat Masa Kehamilan"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="lima"
+        app:cardBackgroundColor="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ini Ada Beberapa Masalah Lain Saat Masa Kehamilan, Perhatkan Juga ya Bun"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="enam"
+        app:cardBackgroundColor="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hei Bunda, Perhatikan! Ini Adalah ''Tanda-Tanda'' Awal Persalinan"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="tuju"
+        app:cardBackgroundColor="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:text="Begini Lho Bunda, ''Langkah-Langkah'' Menyusui Si Debay"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#030303"
+
+            android:id="@+id/textView" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="delapan"
+        app:cardBackgroundColor="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:layout_height="wrap_content"
+            android:text="Bunda Berikut Ini Cara Memerah dan Menyimpan ASI"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:onClick="sembilan"
+        android:layout_gravity="center_horizontal"
+app:cardBackgroundColor="#ffff"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:layout_height="wrap_content"
+            android:text="Tanda Bahaya Pada Masa Nifas Bunda"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="sepuluh"
+        app:cardBackgroundColor="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ini Tentang Keluarga Berencana Bun"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardElevation="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        android:onClick="sebelas"
+        app:cardBackgroundColor="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuci Tangan Yang Benar"
+            android:textSize="20sp"
+            android:gravity="center"
+            fontPath="fonts/JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix"
+            android:layout_gravity="center"
+            android:textColor="#030303"
+
+            />
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
